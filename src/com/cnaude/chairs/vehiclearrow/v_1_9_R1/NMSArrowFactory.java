@@ -1,9 +1,9 @@
-package com.cnaude.chairs.vehiclearrow.v1_8_R2;
+package com.cnaude.chairs.vehiclearrow.v_1_9_R1;
 
-import net.minecraft.server.v1_8_R2.EntityArrow;
+import net.minecraft.server.v1_9_R1.EntityArrow;
 
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v1_8_R2.CraftWorld;
+import org.bukkit.craftbukkit.v1_9_R1.CraftWorld;
 import org.bukkit.entity.Arrow;
 
 import com.cnaude.chairs.vehiclearrow.NMSArrowFactoryInterface;
