@@ -1,13 +1,13 @@
-package com.cnaude.chairs.vehiclearrow.v1_8_R2;
+package com.cnaude.chairs.vehiclearrow.v1_9_R2;
 
-import net.minecraft.server.v1_8_R2.EntityArrow;
+import net.minecraft.server.v1_9_R2.EntityTippedArrow;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
-import org.bukkit.craftbukkit.v1_8_R2.CraftServer;
-import org.bukkit.craftbukkit.v1_8_R2.CraftWorld;
+import org.bukkit.craftbukkit.v1_9_R2.CraftServer;
+import org.bukkit.craftbukkit.v1_9_R2.CraftWorld;
 
-public class NMSChairsArrow extends EntityArrow {
+public class NMSChairsArrow extends EntityTippedArrow {
 
 	public NMSChairsArrow(CraftWorld cworld, Location location) {
 		super(cworld.getHandle());
@@ -17,7 +17,7 @@ public class NMSChairsArrow extends EntityArrow {
 	}
 
 	@Override
-	public void t_() {
+	public void m() {
 	}
 
 }
