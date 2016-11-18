@@ -1,12 +1,10 @@
-package com.cnaude.chairs.vehiclearrow.v1_8_R3;
-
-import net.minecraft.server.v1_8_R3.EntityArrow;
-
-import org.bukkit.Location;
-import org.bukkit.craftbukkit.v1_8_R3.CraftWorld;
-import org.bukkit.entity.Arrow;
+package com.cnaude.chairs.vehiclearrow.v1_11_R1;
 
 import com.cnaude.chairs.vehiclearrow.NMSArrowFactoryInterface;
+import net.minecraft.server.v1_11_R1.EntityArrow;
+import org.bukkit.Location;
+import org.bukkit.craftbukkit.v1_11_R1.CraftWorld;
+import org.bukkit.entity.Arrow;
 
 public class NMSArrowFactory implements NMSArrowFactoryInterface {
 
